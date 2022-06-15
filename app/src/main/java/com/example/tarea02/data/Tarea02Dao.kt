@@ -5,7 +5,7 @@ import androidx.room.*
 import com.example.tarea02.model.Tarea02
 
 @Dao
-sealed interface TareaDao{
+sealed interface Tarea02Dao{
 
     @Query ("SELECT * FROM TAREA02")
     fun getAllData(): LiveData<List<Tarea02>>
